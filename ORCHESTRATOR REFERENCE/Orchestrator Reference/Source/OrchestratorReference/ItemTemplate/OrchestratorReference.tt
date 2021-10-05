@@ -1,0 +1,14 @@
+﻿<#@ template debug="false" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ assembly name="C60.OrchestratorReference" #>
+<#@ import namespace="C60.OrchestratorReference" #>
+<#
+		OrchestratorReferenceTemplate t = new OrchestratorReferenceTemplate();
+		t.Namespace = "$rootnamespace$";
+		t.ClassName ="$safeitemname$";
+		t.Port = $port$;  
+		t.UseSSL = $useSSL$;
+		t.OrchestratorWebServer = "$serverName$";
+		t.IncludePath = @"$includeFolders$"; 
+		this.Write(t.TransformText());   
+#>

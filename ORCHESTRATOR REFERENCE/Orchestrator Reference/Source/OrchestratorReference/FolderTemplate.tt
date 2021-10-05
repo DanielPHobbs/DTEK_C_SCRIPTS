@@ -1,0 +1,52 @@
+﻿<#@ template language="C#" #>
+<# 
+    this.PushIndent("   ");
+#>
+    private <#= this.GetClassName() #>Folder <#= this.GetClassMemberName() #>;
+<#
+    if (this.NeedToCreateInterface())
+    {
+#>
+
+    /// <summary>
+    /// Interface that contains all the runbooks’ executing methods in the "<#= this.CurrentFolder.Name #>" folder.
+    /// </summary>
+    public interface I<#= this.GetClassName() #>
+    {
+<#
+    this.WriteRunbooksFunction(true);
+#>
+    }
+
+<#
+    }
+    else
+    { 
+        this.Write("\r\n");
+    }
+#>
+    /// <summary>
+    ///  Gets an object that maps to the content of the “<#= this.CurrentFolder.Path #>” folder in the Runbook server.
+    /// </summary>
+    public <#= this.GetClassName() #>Folder <#= this.GetClassName() #>
+    {
+        get
+        {
+            if (this.<#= this.GetClassMemberName() #> == null)
+            {
+                this.<#= this.GetClassMemberName() #> = new <#= this.GetClassName() #>Folder();
+            }
+
+            return this.<#= this.GetClassMemberName() #>;
+        }
+    }
+
+    /// <summary>
+    /// Maps to the content of the “<#= this.CurrentFolder.Path #>” folder in the Runbook server.
+    /// </summary>
+    public class <#= this.GetClassName() #>Folder <#= this.NeedToCreateInterface() ? ": I" + this.GetClassName() : string.Empty #>
+    {
+<#
+    this.WriteSubfolderClass();
+    this.WriteRunbooksFunction(false);
+#>    }

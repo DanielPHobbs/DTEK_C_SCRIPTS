@@ -1,0 +1,24 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>OrchestratorReference.tt</DefaultName>
+    <Name>Orchestrator Reference</Name>
+    <Description>A generated, strongly-typed C# classes for accessing Orchestrator runbooks</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>Orchestrator.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>C60.OrchestratorReference, Version=1.0.0.0, Culture=neutral, PublicKeyToken=64EA05E7DB6548FF</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>System.Data.Services.Client</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.tt" ReplaceParameters="true">OrchestratorReference.tt</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>C60.OrchestratorReference, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=64ea05e7db6548ff</Assembly>
+    <FullClassName>C60.OrchestratorReference.OrchestratorReferenceItemWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
