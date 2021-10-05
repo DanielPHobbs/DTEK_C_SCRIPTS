@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pR1dwZ7aUZcVoCGXdOsuvPf/uMIw3lmUiHj77B3Cr5r4X9KSgYXFgx9Fgr2QlIy/tYyjztkgd0mpvqrej6BciA==",
+  "success": true,
+  "projectFilePath": "C:\\DTEKADMIN3-LOCAL-REPO1\\DTEK_C_SCRIPTS\\SCO_RB_Launcher\\SCO-RUNBOOK-LAUNCHER\\SCO-RUNBOOK-LAUNCHER.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danny.DTEK\\.nuget\\packages\\microsoft.extensions.apidescription.client\\3.0.0\\microsoft.extensions.apidescription.client.3.0.0.nupkg.sha512",
+    "C:\\Users\\danny.DTEK\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\danny.DTEK\\.nuget\\packages\\nswag.apidescription.client\\13.0.5\\nswag.apidescription.client.13.0.5.nupkg.sha512",
+    "C:\\Users\\danny.DTEK\\.nuget\\packages\\nswag.msbuild\\13.0.5\\nswag.msbuild.13.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

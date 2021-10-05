@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DTEKADMIN3-LOCAL-REPO1\\DTEK_C_SCRIPTS\\SCO_RB_Launcher\\SCO-RUNBOOK-LAUNCHER\\SCO-RUNBOOK-LAUNCHER.csproj": {}
+  },
+  "projects": {
+    "C:\\DTEKADMIN3-LOCAL-REPO1\\DTEK_C_SCRIPTS\\SCO_RB_Launcher\\SCO-RUNBOOK-LAUNCHER\\SCO-RUNBOOK-LAUNCHER.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DTEKADMIN3-LOCAL-REPO1\\DTEK_C_SCRIPTS\\SCO_RB_Launcher\\SCO-RUNBOOK-LAUNCHER\\SCO-RUNBOOK-LAUNCHER.csproj",
+        "projectName": "SCO-RUNBOOK-LAUNCHER",
+        "projectPath": "C:\\DTEKADMIN3-LOCAL-REPO1\\DTEK_C_SCRIPTS\\SCO_RB_Launcher\\SCO-RUNBOOK-LAUNCHER\\SCO-RUNBOOK-LAUNCHER.csproj",
+        "packagesPath": "C:\\Users\\danny.DTEK\\.nuget\\packages\\",
+        "outputPath": "C:\\DTEKADMIN3-LOCAL-REPO1\\DTEK_C_SCRIPTS\\SCO_RB_Launcher\\SCO-RUNBOOK-LAUNCHER\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\danny.DTEK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NSwag.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
